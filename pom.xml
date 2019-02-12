@@ -9,9 +9,8 @@
     <name>root</name>
     <modules>
         <module>blank-archetype</module>
+        <module>jar</module>
     </modules>
-
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

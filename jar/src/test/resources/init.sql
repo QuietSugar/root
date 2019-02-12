@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS user;
+CREATE TABLE USER (
+	id VARCHAR (32) PRIMARY KEY NOT NULL COMMENT '唯一序号',
+	name VARCHAR (1024) COMMENT '名字',
+	password VARCHAR (1024) COMMENT '密码',
+	roles VARCHAR (32) NOT NULL COMMENT '角色',
+	introduction VARCHAR (1024) COMMENT '介绍',
+	avatar VARCHAR (1024) COMMENT 'avatar',
+	remarks VARCHAR (1024) COMMENT '备注'
+) COMMENT '用户表';
