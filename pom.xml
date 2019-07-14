@@ -10,6 +10,7 @@
     <modules>
         <module>blank-archetype</module>
         <module>jar</module>
+        <module>spring-boot-demo</module>
     </modules>
     <dependencies>
         <dependency>
