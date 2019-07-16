@@ -13,13 +13,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Created by HuoXu
  */
 @RestController
+@RequestMapping(value = "/showdoc", method = {RequestMethod.POST, RequestMethod.GET})
 public class ShowdocController {
     private static final Logger LOGGER = LoggerFactory.getLogger(ShowdocController.class);
 
     /**
      * 主页,获取用户信息,用于判断用户是否登录
      */
-    @RequestMapping(value = "/server/index.php", method = {RequestMethod.POST, RequestMethod.GET})
+    @RequestMapping(value = "/server/index.php")
     public String userInfo(@RequestParam("s") String s) {
         LOGGER.info("请求信息:{}", s);
         if ("/api/user/info".equals(s)) {
