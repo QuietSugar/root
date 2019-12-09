@@ -39,7 +39,7 @@
         </resources>
     </build>
     <packaging>jar</packaging>
-    <name>Application</name>
+    <name>spring-boot-demo</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

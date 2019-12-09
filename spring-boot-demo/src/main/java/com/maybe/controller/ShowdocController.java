@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Created by HuoXu
  */
 @RestController
-@RequestMapping(value = "/showdoc", method = {RequestMethod.POST, RequestMethod.GET})
+@RequestMapping(value = "/static/showdoc", method = {RequestMethod.POST, RequestMethod.GET})
 public class ShowdocController {
     private static final Logger LOGGER = LoggerFactory.getLogger(ShowdocController.class);
 
