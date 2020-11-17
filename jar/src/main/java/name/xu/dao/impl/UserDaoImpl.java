@@ -1,7 +1,7 @@
-package com.maybe.dao.impl;
+package name.xu.dao.impl;
 
-import com.maybe.dao.UserDao;
-import com.maybe.model.User;
+import name.xu.dao.UserDao;
+import name.xu.model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

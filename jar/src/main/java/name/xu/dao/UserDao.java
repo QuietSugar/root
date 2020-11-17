@@ -1,6 +1,6 @@
-package com.maybe.dao;
+package name.xu.dao;
 
-import com.maybe.model.User;
+import name.xu.model.User;
 
 import java.util.List;
 

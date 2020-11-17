@@ -1,4 +1,4 @@
-package com.maybe.model;
+package name.xu.model;
 
 public class User {
     /**

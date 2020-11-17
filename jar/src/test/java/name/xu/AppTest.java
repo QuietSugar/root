@@ -1,9 +1,7 @@
-package com.maybe;
+package name.xu;
 
 /**
- * Maybe has infinite possibilities
- *
- * @author Created by sugar on 2018/5/26
+ * @author Created by xu
  */
 public class AppTest {
     public static void main(String[] args) {

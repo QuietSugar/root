@@ -1,4 +1,4 @@
-package com.maybe.controller;
+package name.xu.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Maybe has infinite possibilities
- *
- * @author Created by Maybe on 2018/3/18
+ * @author Created by xu
  */
 @RestController
 @RequestMapping(value = "/server", method = {RequestMethod.POST, RequestMethod.GET})

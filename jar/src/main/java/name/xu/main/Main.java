@@ -1,8 +1,8 @@
-package com.maybe.main;
+package name.xu.main;
 
-import com.maybe.model.User;
-import com.maybe.service.impl.UserServiceImpl;
-import com.maybe.util.JdbcTemplateFactory;
+import name.xu.model.User;
+import name.xu.service.impl.UserServiceImpl;
+import name.xu.util.JdbcTemplateFactory;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,9 +13,7 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Maybe has infinite possibilities
- *
- * @author Created by HuoXu <2542610526@qq.com> on 2019/2/12
+ * @author Created by xu
  */
 public class Main {
     private static final Logger LOG = LoggerFactory.getLogger(Main.class);

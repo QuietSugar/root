@@ -1,9 +1,18 @@
-[官方参考地址](http://maven.apache.org/archetypes/maven-archetype-archetype/scm.html)
- 
+#### Maven archetype 创建自定义模板：
+
 ##### 0.快捷使用
 ```shell
- 
-#  一步到位（存疑）
+# 下载本项目源码
+git clone https://github.com/QuietSugar/blank.git
+# 进入目录
+cd blank
+# 安装到本机，并且更新
+mvn clean install 
+# 或者 mvn -Dmaven.test.skip=true clean install
+mvn archetype:update-local-catalog
+# 去找一个空的目录运行，根据提示设置
+mvn archetype:generate
+# 或者一步到位（存疑）
 mvn archetype:generate -DgroupId=com.maybe -DartifactId=test -Dversion=1.0-SNAPSHOT -DarchetypeArtifactId=blank-archetype -DinteractiveMode=false -DarchetypeVersion=1.0-SNAPSHOT -X -DarchetypeCatalog=local
 
 # 使用官方提供的已存在的模板

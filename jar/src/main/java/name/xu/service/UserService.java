@@ -1,6 +1,6 @@
-package com.maybe.service;
+package name.xu.service;
 
-import com.maybe.model.User;
+import name.xu.model.User;
 
 import java.util.List;
 

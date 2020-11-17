@@ -45,7 +45,7 @@
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>
-    <context:component-scan base-package="com.maybe"/>
+    <context:component-scan base-package="name.xu"/>
     <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
 
     <!--注入本地jdbc对象抽取器-->
